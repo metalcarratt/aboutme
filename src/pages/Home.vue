@@ -2,7 +2,7 @@
     <main>
         <h2>About Me</h2>
         <p>
-            I am Technical Lead working the last eight years at <a href="https://datacom.com/nz/en" target="_blank">Datacom NZ</a>. While there I have
+            I am a Technical Lead working for the last eight years at <a href="https://datacom.com/nz/en" target="_blank">Datacom NZ</a>. While there I have
             progressed from Junior Java Developer to Technical Lead. While I am a developer at
             core I enjoy getting involved in many other aspects of my work, such as engagement
             with customers, training and mentoring, and working on technical design. My main
