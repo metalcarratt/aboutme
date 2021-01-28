@@ -12,13 +12,14 @@ $hover: #658c9a; // blue
 $border: #f4ff94; // yellow
 $h2: #eefb80; // yellow
 $footer: #7a8ff9; // purple
+$skillHigh: #ff6363; // red
 
 main {
     font-family: "Noto Serif", Helvetica, Arial, sans-serif;
     text-align: center;
     color: $text;
 
-    width: 1240px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -29,6 +30,69 @@ p {
 ul li {
     text-align: left;
     padding: 2px;
+}
+
+ul.skills, ul.experience {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+
+    width: 800px;
+    margin: 0 auto;
+
+    li {
+        display: inline-block;
+        width: 25%;
+        box-sizing: border-box;
+        color: $border;
+        margin-bottom: 10px;
+        vertical-align: top;
+
+        .skillHigh {
+            color: $skillHigh;
+        }
+
+        .skillMed {
+            color: orange;
+        }
+
+        .skillLow {
+            color: white;
+        }
+
+        .skillNew {
+            color: $underline;
+        }
+    }
+
+    &.skills li {
+        width: 25%;
+    }
+
+    &.experience li {
+        width: 50%;
+        padding-right: 10px;
+    }
+}
+
+
+.hoverTitle {
+    
+    position: relative;
+    top: 0px;
+    left: -100px;
+    width: 0;
+    height: 0;
+
+    span {
+        border: 1px solid white;
+        background-color: white;
+        color: black;
+        padding: 4px;
+        position: absolute;
+        width: 80px;
+        height: 20px;
+    }
 }
 
 body {
@@ -53,6 +117,16 @@ h3 {
     padding-left: 5px;
     margin-top: 48px;
     border-bottom: 1px solid $text;
+}
+
+h4 {
+    text-align: left;
+    color: $underline;
+}
+
+.dates {
+    color: #8c8c8c;
+    font-style: italic;
 }
 
 a {

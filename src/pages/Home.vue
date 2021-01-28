@@ -1,16 +1,24 @@
 <template>
     <main>
-        <h2>Home</h2>
-        <p>Welcome. I am a Software Engineer / Technical Lead, currently employed at Datacom in Wellington, New Zealand.</p>
+        <h2>About Me</h2>
+        <p>
+            I am Technical Lead working the last eight years at <a href="https://datacom.com/nz/en" target="_blank">Datacom NZ</a>. While there I have
+            progressed from Junior Java Developer to Technical Lead. While I am a developer at
+            core I enjoy getting involved in many other aspects of my work, such as engagement
+            with customers, training and mentoring, and working on technical design. My main
+            experience is with large scale full stack Java applications, but I have a particular
+            interest in UI/UX design and frontend Javascript development. I like teaching and
+            helping teams bring out their best potential.
+        </p>
 
-        <h3>My work</h3>
-        <p>Read about my technical skills and interests, projects I've worked on and my philosophy about software development <router-link to="/work">here</router-link>.</p>
+        <h3>Details</h3>
+        <p>Read about my technical and non-technical skills: <router-link to="/skills">here</router-link></p>
         
-        <h3>My projects</h3>
-        <p>See projects I've worked on outside my fulltime job <router-link to="/projects">here</router-link>.</p>
+        <p>Read about my work experience: <router-link to="/experience">here</router-link></p>
 
-        <h3>My interests</h3>
-        <p>Take a look at some of my out-of-work hobbies <router-link to="/interest">here</router-link>.</p>
+        <p>Take a look at my qualifications and Training: <router-link to="/education">here</router-link></p>
+
+        <p>Please <a href="mailto:metal.carratt@gmail.com">contact me</a> for references.</p>
 
         <h3>Where to find me online</h3>
         <p>Here are some other places to find me online:</p>

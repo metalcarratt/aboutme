@@ -6,7 +6,10 @@ const routes = [
     { path: '/work', component: () => import("./Work.vue") },
     { path: '/projects', component: () => import("./Projects.vue") },
     { path: '/interests', component: () => import("./Interests.vue") },
-    { path: '/contact', component: () => import("./Contact.vue") }
+    { path: '/contact', component: () => import("./Contact.vue") },
+    { path: '/skills', component: () => import("./Skills.vue") },
+    { path: '/experience', component: () => import("./Experience.vue") },
+    { path: '/education', component: () => import("./Education.vue") }
 ]
 
 Vue.use(VueRouter);
