@@ -9,7 +9,8 @@ const routes = [
     { path: '/contact', component: () => import("./Contact.vue") },
     { path: '/skills', component: () => import("./Skills.vue") },
     { path: '/experience', component: () => import("./Experience.vue") },
-    { path: '/education', component: () => import("./Education.vue") }
+    { path: '/education', component: () => import("./Education.vue") },
+    { path: '/portfolio', component: () => import("./Portfolio.vue") }
 ]
 
 Vue.use(VueRouter);
