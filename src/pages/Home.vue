@@ -16,9 +16,9 @@
         
         <p>Read about my work experience: <router-link to="/experience">here</router-link></p>
 
-        <p>Take a look at my qualifications and Training: <router-link to="/education">here</router-link></p>
+        <p>Take a look at my qualifications and training: <router-link to="/education">here</router-link></p>
 
-        <p>You can look at my portfolio page: <router-link to="/portfolio">here</router-link></p>
+        <p>You can look at a few of the things I've worked on <router-link to="/portfolio">here</router-link></p>
 
         <p>Please <a href="mailto:metal.carratt@gmail.com">contact me</a> for references.</p>
 

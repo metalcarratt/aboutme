@@ -17,14 +17,10 @@
         </p>
 
         <p>
-            I lead the re-build of the Update Case in Court (UCiC) application, which is a
-            Java application with a Vue.js frontend.
+            I led the re-build of the Update Case in Court (UCiC) application, which is a
+            Java application with a Vue.js frontend. I also designed the re-skin for UCiC.
+            Unfortunately, for contract reasons, I cannot provide any examples of this.
         </p>
-        <!--
-        <p>
-            I also designed the re-skin for UCiC. You can see of a sample of that here.
-        </p>
-        -->
 
         <h3>Personal Projects</h3>
         <p>
