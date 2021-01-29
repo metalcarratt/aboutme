@@ -22,6 +22,11 @@
             Unfortunately, for contract reasons, I cannot provide any examples of this.
         </p>
 
+        <h4>Security and UX - whitepaper</h4>
+        <p>
+            I wrote a short whitepaper in 2016 about the dependence of UX on security. You can view it
+            here: <a href="https://drive.google.com/file/d/1gvR6An6jZ5zk5pPOlOzQ2Mw8Lmbdza61/view?usp=sharing" target="_blank">Security and UX</a>
+
         <h3>Personal Projects</h3>
         <p>
             My GitHub account is <a href="https://github.com/metalcarratt/" target="_blank">here</a>.
