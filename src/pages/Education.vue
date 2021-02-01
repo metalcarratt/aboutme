@@ -8,6 +8,8 @@
             Double-major in Computer Science and Chinese.
         </p>
 
+        <p>See my university transcript: <a href="https://drive.google.com/file/d/1tF_1y-MGqwOxca2H6GmWt8fqIwdGhTBd/view?usp=sharing" target="_blank">here</a>.</p>
+
         <h3>Training</h3>
         <ul>
             <li>Scrum immersion course - <a href="https://nomad8.com/" target="_blank">Nomad-8</a></li>
