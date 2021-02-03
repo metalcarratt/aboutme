@@ -3,7 +3,6 @@ import VueRouter from 'vue-router';
 
 const routes = [
     { path: '/', component: () => import("./Home.vue") },
-    { path: '/work', component: () => import("./Work.vue") },
     { path: '/projects', component: () => import("./Projects.vue") },
     { path: '/interests', component: () => import("./Interests.vue") },
     { path: '/contact', component: () => import("./Contact.vue") },

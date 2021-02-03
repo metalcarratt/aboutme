@@ -1,6 +1,9 @@
 <template>
-    <main>
-        <h1>Caleb Garratt</h1>
+    <main :class="[mode]">
+        <h1>
+            Caleb Garratt
+            <ThemeSwitcher />
+        </h1>
         <Menu/>
         <router-view></router-view>
 
@@ -12,10 +15,11 @@
 
 <script>
 import Menu from "@/components/Menu.vue";
+import ThemeSwitcher from "@/components/ThemeSwitcher.vue";
 
 export default {
     name: 'App',
-    components: { Menu }
+    components: { Menu, ThemeSwitcher },
 }
 </script>
 

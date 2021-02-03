@@ -1,0 +1,157 @@
+$fairyBlue: #cdf2ff;;
+$lightBlue: #43c1f1;
+$blue: #658c9a;
+$darkBlue: #3c8ebf;
+$purple: #7a8ff9;
+
+$yellow1: #f4ff94;
+$yellow2: #eefb80;
+$gold: #99a251;
+$lightGold: #bfbdb3;
+
+$brightRed: #ff6363;
+$orange: orange;
+
+$pureWhite: white;
+$pureBlack: black;
+$almostWhite: #fdfaef;
+$almostBlack: #282923;
+
+$lightGrey: #8c8c8c;
+$metalGrey: #48484a;
+$darkGrey: #606060;
+$anotherGrey: #aaa;
+
+
+// common
+body.darkMode, body.lightMode {
+    ul.skills, ul.experience li {
+        .skillHigh {
+            color: $brightRed;
+        }
+
+        .skillMed {
+            color: $orange;
+        }
+
+        .skillNew {
+            color: $lightBlue;
+        }
+    }
+
+    h4 {
+        color: $lightBlue;
+    }
+
+    .dates {
+        color: $lightGrey;
+    }
+
+    a {
+        color: $purple;
+    }
+
+    .themeSwitcher svg {
+        &:hover {
+            background-color: $anotherGrey;
+        }
+
+        &.selected {
+            color: $yellow1;
+            background-color: $anotherGrey;
+            border-color: $pureWhite;
+        }
+    }
+}
+
+// dark mode
+body.darkMode {
+    color: $almostWhite;
+    background-color: $almostBlack;
+
+    h1 {
+        border-bottom-color: $lightBlue;
+    }
+
+    h2 {
+        color: $yellow2;
+    }
+
+    h3 {
+        border-bottom-color: $almostWhite;
+    }
+
+    nav a {
+        color: $almostWhite;
+    }
+
+    ul.skills, ul.experience li {
+        color: $yellow1;
+
+        .skillLow {
+            color: $pureWhite;
+        }
+    }
+
+    .hoverTitle span {
+        border-color: $pureWhite;
+        background-color: $pureWhite;
+        color: $pureBlack;
+    }
+
+    a:hover {
+        background-color: $blue;
+        color: $almostWhite;
+    }
+
+    .footer {
+        border-top-color: $lightBlue;
+        color: $almostWhite;
+    }
+}
+
+// light mode
+body.lightMode {
+    color: $metalGrey;
+    background-color: $pureWhite;
+
+    h1 {
+        border-bottom-color: $darkBlue;
+    }
+
+    h2 {
+        color: $gold;
+    }
+
+    h3 {
+        border-bottom: 1px solid $lightGold;
+    }
+
+    nav a {
+        color: $metalGrey;
+    }
+
+    ul.skills, ul.experience li {
+        color: $gold;
+
+        .skillLow {
+            color: $darkGrey;
+        }
+    }
+
+    .hoverTitle span {
+        border-color: $darkGrey;
+        background-color: $lightBlue;
+        color: $pureWhite;
+    }
+
+    a:hover {
+        background-color: $fairyBlue;
+        color: $metalGrey;
+    }
+
+    .footer {
+        border-top-color: $darkBlue;
+        color: $metalGrey;
+    }
+}
